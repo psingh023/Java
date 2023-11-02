@@ -1,0 +1,32 @@
+package leetCodeEx;
+
+public class SumTwo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			
+		SumTwo obj = new SumTwo();
+		sys
+		int count = obj.countDig(324654);
+		
+		System.out.println(count);
+		if ((count%2) == 1) {
+			System.out.println("Palindrome");
+		}
+		else {
+			System.out.println("Not Palindrome");
+		}
+	}
+	public int countDig(int n)  
+	{  
+	// converting the number n to a string  
+	String str = Integer.toString(n);  
+	// computing the size of the string  
+	int size = str.length();  
+	return size;  
+	}  
+	
+
+}
+
+

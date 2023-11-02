@@ -1,0 +1,52 @@
+
+---- Animations
+Bubble
+FallingDeadSprites
+DirectFalling
+FlagWin
+FlowerAnim
+MashroomAnim
+StarAnim
+BossFallingAnim
+
+
+------- Objects
+EnemyFireBall
+EnemyMashroom
+EnemyTurtle
+EnemyTurtlePatrol
+BossFire
+FireBall = no need to fix
+FishyGround  = no need to fix
+FishyWater
+Flower = no need to fix
+FlyingTurtle
+FlyingTurtlePatrol
+Hammer
+Helmet
+HelmetShell = no need to fix
+MovingHelmetShell
+MovingTurtelShell
+Mashroom
+Monkey
+OctoPussy
+Rocket
+SonOfABuitch
+Spikey
+SpikeyEgg
+Star
+plant
+
+
+
+--- Lifts
+
+BalenceLiftChild
+BalenceLiftParent
+LiftDown
+LiftFall
+LiftUP
+Lift_UpDown
+Lift_LeftRight = no need to fix
+Lift_LeftRightInvert  = no need to fix
+
