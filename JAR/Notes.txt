@@ -1,0 +1,43 @@
+Run JAR file command
+>java -jar Mario_Nes_60_FPS.jar
+
+------------
+Expand jar file list files
+t- Table of contents
+v- vervoso - specifies that you want to display detailed processing information on your screen
+f- file 
+>jar -tvf Mario_Nes_60_FPS.jar
+
+------------
+Extract jar file
+x- Extract
+v- Verbose
+f- File
+>jar -xvf MArio_Nes_60_FPS.jar
+
+------------
+To view file data
+>type ExampleProgram.java
+
+------------
+Create Jar file make sure to have manifest.mf or manifest.txt file with 
+main class defined with blank next line 
+ Main-Class: ExampleProgram
+ 
+c- create file
+v- verbose
+f- file
+m- manifest file ! Optional
+*.*- To include all folders and subfolders in jar
+*.classname- to include all files that end in .class
+
+>jar -cvfm myprogram.jar manifest.mf *.class
+
+------------
+to run jar file 
+>java -jar myprogram.jar
+
+------------
+To include specific classes(a,b,c) only in jar file without manifest
+
+>jar -cvf hello.jar a.class b.class c.class

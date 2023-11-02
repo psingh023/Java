@@ -1,0 +1,27 @@
+package leetCodeEx;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		int x = 8527258;
+		
+	       if(x<0 || x!=0 && x%10 ==0 ) {
+	    	   System.out.println("not palindrome");
+	    	   return;
+	    	   }
+	        int check=0;
+	        while(x>check){
+	        	System.out.println("\nInside While x: " + x + " check: " + check );
+	        	
+	            check = check*10 + x%10;
+	            System.out.println("check value: " + check);
+	            x/=10;
+	            System.out.println("x value after: " + x);
+	        }
+	        System.out.println("----------------");
+	        System.out.println(x + " == " + check + " || " + x + " == " + check + "/10");
+	        boolean y = x==check || x==check/10;
+	        System.out.println(y);
+	}
+
+}
