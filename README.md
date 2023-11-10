@@ -43,7 +43,7 @@ for (Map.Entry<String, String> entry: dictionary.entrySet()){
 }
 ```
 ## **GENERICS**
-
+```java
  Container<Integer, String> container = new Container<Integer, String>(12, "Hello");
 ~ Container<Integer, String> container = new Container<>(12, "Hello");
  	int val1 = container.getItem1();
@@ -88,4 +88,4 @@ public static <E- *'Generic type parameter defined'*> Set<E - *'Return Data Type
 	result.addAll(set2);
 	return result;
 }
-
+```
